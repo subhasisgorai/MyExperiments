@@ -1,6 +1,10 @@
 # Introduction 
 
-This space contains some of my experimental works. I have written a few light weight libraries for Data Processing Pipeline or for interacting with Azure Storage service, i.e., Tables or Queues, in reactive fashion. The libraries leverage Java multithreading and reactive frameworks like RxJava extensively. 
+This space contains some of my experimental works. I have written a few light weight libraries for Data Processing Pipeline or for interacting with Azure Storage service, i.e., Tables or Queues, in reactive fashion. The libraries leverage Java multithreading and reactive frameworks like RxJava extensively.
+1. [A multithreaded Data Processing Pipeline](https://github.com/subhasisgorai/MyExperiments/tree/main/src/main/java/com/webworkz/playground/pipeline)
+2. [A reactive library to interact with Azure Storage Queue](https://github.com/subhasisgorai/MyExperiments/tree/main/src/main/java/com/webworkz/playground/azure/queue)
+3. [A thin, reactive library for Azure Storage Table](https://github.com/subhasisgorai/MyExperiments/tree/main/src/main/java/com/webworkz/playground/azure/dataaccess)
+
 
 # Getting Started
 In order to use this Java SDK in your Java based project, you have to add the following maven dependency,
@@ -22,3 +26,6 @@ For building and testing the project,
 
 # Contribute
 You are most welcome to contribute to this project, just fork it or create a branch and start developing. Once you are good please create a pull request and notify.
+
+# References
+1. [RxJava: Reactive Extensions for the JVM](https://github.com/ReactiveX/RxJava)
